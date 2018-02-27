@@ -451,7 +451,7 @@ template {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #333;
 }
 
@@ -644,7 +644,7 @@ a {
 
 @media (min-width: 1010px) {
       .page-section--testimonials.lazyloaded {
-        background: url('../../assets/images/testimonials-bg.jpg') top center
+        background: url("../../assets/images/testimonials-bg.jpg") top center
           no-repeat;
         background-size: cover;
       }
@@ -727,7 +727,7 @@ a {
   }
 
 .row::after {
-    content: '';
+    content: "";
     clear: both;
     display: table;
   }
@@ -765,7 +765,6 @@ a {
   }
 
 @media (min-width: 800px) {
-
     .row__b-margin-until-medium {
       margin-bottom: 0;
     }
@@ -795,7 +794,6 @@ a {
   }
 
 @media (min-width: 1010px) {
-
     .row__b-margin-until-large {
       margin-bottom: 0;
     }
@@ -832,7 +830,6 @@ a {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex
-
   }
   }
 
@@ -849,7 +846,6 @@ a {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex
-
   }
   }
 
@@ -1220,7 +1216,7 @@ Instead edit gulp/templates/sprite */
   }
 
 .site-header__menu-icon::before {
-      content: '';
+      content: "";
       position: absolute;
       top: 0;
       left: 0;
@@ -1249,7 +1245,7 @@ Instead edit gulp/templates/sprite */
     }
 
 .site-header__menu-icon::after {
-      content: '';
+      content: "";
       position: absolute;
       bottom: 0;
       left: 0;
@@ -1311,7 +1307,7 @@ Instead edit gulp/templates/sprite */
   }
 
 .primary-nav ul::after {
-    content: '';
+    content: "";
     clear: both;
     display: table;
   }
